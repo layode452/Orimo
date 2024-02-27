@@ -1,0 +1,93 @@
+*{
+    overflow-x: hidden;
+}
+
+.nbac{
+    background-color: #1D1D1D;
+}
+
+.nbacc span{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.tes{
+    margin-left: 100px;
+    padding-left: 110px;
+}
+
+/* carousel */
+.watch{
+    width: 676px;
+    height: 280px;
+    zoom: 1.9;
+}
+
+/* 1st body */
+.first-parent p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.first-parentt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-parentt p{
+    padding: 30px 0px 0px 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.first-parentt a{
+    text-decoration: none;
+}
+
+.f-boxx{
+    background-image: url(images/930-490.jpg);
+    background-position: center;
+    zoom: 65%;
+    height: 450px;
+    width: 885px;
+    border-radius: 13px;
+}
+
+.f-boxxx{
+    background-image: url(images/VCG211288602089.png);
+    background-position: center;
+    zoom: 65%;
+    height: 450px;
+    width: 885px;
+    border-radius: 13px;
+}
+
+.f-boxs{
+    background-image: url(images/ad-power.jpg);
+    background-position: center;
+    zoom: 65%;
+    height: 450px;
+    width: 885px;
+    border-radius: 13px;
+}
+
+.f-boxss{
+    background-image: url(images/20231127-105044.jpg);
+    background-position: center;
+    zoom: 65%;
+    height: 450px;
+    width: 885px;
+    border-radius: 13px;
+}
+
+/* 2nd body */
+.second-body h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+    overflow-y: hidden;
+}

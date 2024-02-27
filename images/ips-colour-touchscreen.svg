@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.82 17.83">
+  <g id="icon-5" transform="rotate(90) translate(0 -17.82)">
+    <path d="m0,8.91c0,4.92,4,8.92,8.91,8.92s8.91-4,8.91-8.92S13.82,0,8.91,0,0,4,0,8.91Z" style="fill: #000; stroke-width: 0px;"/>
+    <g>
+      <path d="m12.89,6.62v4.59c0,.96-.78,1.74-1.74,1.74h-4.46c-.96,0-1.74-.78-1.74-1.74v-4.59c0-.96.78-1.74,1.74-1.74h4.46c.96,0,1.74.77,1.74,1.74Z" style="fill: #fff; fill-rule: evenodd; stroke-width: 0px;"/>
+      <path d="m4.36,11.37v-4.92c0-.05,0-.1.01-.16l-.81.18c-.28.06-.51.35-.51.63v3.61c0,.29.23.57.51.63l.81.18c-.01-.04-.01-.1-.01-.15Z" style="fill: #fff; fill-rule: evenodd; stroke-width: 0px;"/>
+      <path d="m13.48,6.45v4.92c0,.05,0,.1-.01.16l.81-.18c.28-.06.51-.35.51-.63v-3.61c0-.29-.23-.57-.51-.63l-.81-.18c.01.05.01.1.01.15Z" style="fill: #fff; fill-rule: evenodd; stroke-width: 0px;"/>
+      <g>
+        <circle cx="8.92" cy="8.9" r="1.03" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="8.92" cy="10.83" r=".52" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="8.92" cy="7" r=".52" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="7.26" cy="9.87" r=".52" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="10.58" cy="7.95" r=".52" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="7.26" cy="7.95" r=".52" style="fill: #000; stroke-width: 0px;"/>
+        <circle cx="10.58" cy="9.87" r=".52" style="fill: #000; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

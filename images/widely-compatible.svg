@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.58 14.58">
+  <g id="icon-1">
+    <path d="m14.58,7.29c0,4.02-3.27,7.29-7.29,7.29S0,11.31,0,7.29,3.27,0,7.29,0s7.29,3.27,7.29,7.29Z" style="fill: #000; stroke-width: 0px;"/>
+    <path d="m13.85,7.29c0,3.62-2.95,6.57-6.57,6.57S.71,10.91.71,7.29,3.66.72,7.28.72s6.57,2.95,6.57,6.57Z" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: .292px;"/>
+    <g>
+      <polygon points="5.72 8.58 6.3 7.29 5.72 6 5.17 7.29 5.72 8.58" style="fill: #fff; stroke-width: 0px;"/>
+      <polygon points="6.6 7.46 5.94 8.92 8.29 8.93 8.91 7.46 6.6 7.46" style="fill: #fff; stroke-width: 0px;"/>
+      <g>
+        <polygon points="5.94 5.66 6.6 7.11 8.89 7.11 8.18 5.66 5.94 5.66" style="fill: #fff; stroke-width: 0px;"/>
+        <g>
+          <path d="m3.41,7.29l1.53,3.4.64-1.43-.84-1.97.84-1.97-.64-1.43-1.53,3.4Zm1.08-.13v.26h-.67v-.26h.67Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="m5.84,9.33l-.67,1.49h4.46l1.53-3.4h-1.83l-.82,1.92-2.67-.01Zm3.39.76l-.21.16-.5-.65.21-.16.5.65Z" style="fill: #fff; stroke-width: 0px;"/>
+          <path d="m5.84,5.25h2.56l.93,1.91h1.82l-1.53-3.4h-4.46l.68,1.49Zm3.39-.82l-.56.71-.21-.16.56-.71.21.16Z" style="fill: #fff; stroke-width: 0px;"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
