@@ -1,5 +1,5 @@
 *{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nbac{
@@ -90,4 +90,45 @@
     text-align: center;
     color: #111111;
     overflow-y: hidden;
+}
+
+.imgg h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.imgg p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.imgg span{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.imgg h6{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.imggs{
+    background-color: #F8F8F8;
+}
+
+.cards-wrapper{
+    display: flex;
+    gap: 25px;
+}
+
+.image-wrapper{
+    height: 16vw;
+    margin: 0 auto;
+}
+
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
 }
