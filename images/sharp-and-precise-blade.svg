@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_2" data-name="图层 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.36 26.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .6px;
+      }
+    </style>
+  </defs>
+  <g id="_图层_1-2" data-name=" 图层 1">
+    <g id="icon-5">
+      <path class="cls-1" d="m0,13.18c0,7.27,5.91,13.18,13.18,13.18s13.18-5.91,13.18-13.18S20.44,0,13.18,0,0,5.91,0,13.18"/>
+      <path class="cls-2" d="m13.18,24.58c6.29,0,11.4-5.11,11.4-11.4S19.47,1.78,13.18,1.78,1.78,6.89,1.78,13.18s5.11,11.4,11.4,11.4"/>
+      <g>
+        <path class="cls-3" d="m23.8,20.98h-4.12c-2.62,0-4.91-1.16-6.16-2.89"/>
+        <path class="cls-3" d="m13.58,8.19c1.26-1.68,3.53-2.8,6.1-2.8h4.12"/>
+        <rect class="cls-3" x="11.8" y="6.79" width="1.63" height="12.77"/>
+        <line class="cls-3" x1="6.5" y1="19.56" x2="16.8" y2="19.56"/>
+        <line class="cls-3" x1="6.5" y1="6.79" x2="16.8" y2="6.79"/>
+        <line class="cls-3" x1="6.5" y1="8.62" x2="16.8" y2="8.62"/>
+        <line class="cls-3" x1="6.5" y1="10.44" x2="16.8" y2="10.44"/>
+        <line class="cls-3" x1="6.5" y1="12.27" x2="16.8" y2="12.27"/>
+        <line class="cls-3" x1="6.5" y1="14.09" x2="16.8" y2="14.09"/>
+        <line class="cls-3" x1="6.5" y1="15.91" x2="16.8" y2="15.91"/>
+        <line class="cls-3" x1="6.5" y1="17.74" x2="16.8" y2="17.74"/>
+      </g>
+    </g>
+  </g>
+</svg>
