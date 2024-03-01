@@ -2,6 +2,34 @@
     /* overflow-x: hidden; */
 }
 
+.cov{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bee{
+    z-index: 1000;
+}
+
+.animated{
+    animation: movee 19s linear infinite forwards;
+    /* transition: 20s; */
+    font-weight: 400;
+}
+
+@keyframes movee {
+    0%{
+        transform: translate(1300px);
+    }
+    100%{
+        transform: translate(-650px);
+    }
+}
+
+.viju h1{
+    font-size: 15px;
+}
+
 .nbac{
     background-color: #1D1D1D;
 }
