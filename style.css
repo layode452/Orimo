@@ -1,7 +1,3 @@
-*{
-    /* overflow-x: hidden; */
-}
-
 .cov{
     display: flex;
     justify-content: space-between;
@@ -319,10 +315,6 @@
 }
 
 /* 7th body */
-.seventh-body{
-
-}
-
 .seventh-body h1{
     font-size: 30px;
     font-weight: 700;
