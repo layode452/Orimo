@@ -1,0 +1,209 @@
+@media screen and (max-width: 475px){
+    *{
+        overflow-x: hidden;
+    }
+    /* top section */
+    .viju h1{
+        font-size: 8.5px;
+        margin-top: 10px;
+    }
+
+    .animated{
+        animation: movee 15s linear infinite forwards;
+        font-weight: 400;
+    }
+    
+    @keyframes movee {
+        0%{
+            transform: translate(320px);
+        }
+        100%{
+            transform: translate(-550px);
+        }
+    }
+
+    .hmenu{
+        display: none;
+    }
+
+    .tes{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .oraimo{
+        width: 80px;
+    }
+
+    .sideitem{
+        width: 13px;
+    }
+
+    .sidecart{
+        margin-left: 90px;
+    }
+
+    .watch{
+        width: 100%;
+        height: 93px;
+    }
+
+    /* free shipping */
+    
+    /* audio personal-care */
+.f-boxx{
+    zoom: 29%;
+    height: 450px;
+    width: 670px;    
+}
+
+.f-boxxx{
+    zoom: 29%;
+    height: 450px;
+    width: 670px;
+}
+
+.f-boxs{
+    zoom: 29%;
+    height: 450px;
+    width: 670px;
+}
+
+.f-boxss{
+    zoom: 29%;
+    height: 450px;
+    width: 670px;
+}
+
+.first-parent p{
+    font-size: 16px;
+}
+
+.first-parentt p{
+    font-size: 16px;
+}
+
+/* 3rd body */
+.awards img{
+    height: 500px;
+}
+
+/* 4th body */
+.fourth-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.cardgrid{
+    width: 13rem;
+}
+
+/* 6th body */
+.sixth{
+    padding: 10px;
+}
+
+.sixth-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.sixth-parent p{
+    padding: 10px;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9px;
+}
+
+#eshop{
+    padding: 5px;
+    line-height: 5px;
+}
+
+.woman{
+    width: 140px;
+    background-size: contain;
+    zoom: 140%;
+    height: 158px;
+}
+
+.calcare{
+    width: 173px;
+    zoom: 113%;
+    background-size: contain;
+    height: 100px;
+}
+
+.year{
+    width: 180px;
+    zoom: 104%;
+    background-size: contain;
+    height: 106px;
+}
+
+.free{
+    width: 180px;
+    zoom: 104%;
+    background-size: contain;
+    height: 106px;
+}
+
+.coin{
+    width: 180px;
+    zoom: 104%;
+    background-size: contain;
+    height: 106px;
+}
+
+.authen{
+    width: 180px;
+    zoom: 104%;
+    background-size: contain;
+    height: 106px;
+}
+
+.club{
+    background-image: url(images/o-club-ng-s.png);
+    width: 93px;
+    background-size: contain;
+    zoom: 210%;
+    height: 60px;
+}
+
+/* 7th body */
+.seventh-body p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.clip img{
+    width: 90px;
+    height: 100px;
+    margin-left: 2px;
+}
+
+/* 8th body */
+.eight-body h3{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.eight-body p{
+    font-size: 12px;
+}
+
+.bell{
+    width: 60px;
+}
+
+.bell img{
+    width: 25px;
+}
+
+/* 10th body */
+.tenth-body{
+    display: block;
+}
+}

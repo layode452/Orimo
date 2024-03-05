@@ -6,37 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>orimo Nigeria Official Online Store</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/oraimologo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="phone.css">
 </head>
 
 <body>
     <!-- NavBar -->
     <div class="sect-ttt bg-dark">
-        <div class="bg-dark cov">
+        <div class="bg-dark cov" id="movin">
             <div class="viju">
-                <h1 class=" animated text-light p-2">Welcome to oraimo official eshop of Nigeria. FREE SHIPPING
+                <h1 class="animated text-light p-2">Welcome to oraimo official eshop of Nigeria. FREE SHIPPING
                     over
                     ₦9000 in Lagos!</h1>
             </div>
             <div class="bee">
-                <button class="btn bg-dark"><img src="images/icons8-x-64.png" width="20px" alt=""></button>
+                <button onclick="document.getElementById('movin').style.display='none'" class="btn bg-dark"><img
+                        src="images/icons8-x-64.png" width="20px" alt=""></button>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg p-3 nbac">
+        <nav class="navbar navbar-expand p-lg-3 p-2 nbac">
             <div class="container-fluid">
-                <a class="navbar-brand ms-4 me-4" href="#"><img src="images/logo.png" alt=""></a>
+                <a class="navbar-brand ms-lg-4 me-lg-4" href="#"><img src="images/logo.png" class="oraimo" alt=""></a>
                 <div class="collapse navbar-collapse ms-5 nbacc" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item me-5">
+                    <ul class="navbar-nav hmenu">
+                        <li class="nav-item me-lg-5">
                             <a class="nav-link active" aria-current="page" href="#"><span>Home</span></a>
                         </li>
 
-                        <li class="nav-item me-5">
+                        <li class="nav-item me-lg-5">
                             <a class="nav-link active" aria-current="page" href="#"><span>Daily Deals</span></a>
                         </li>
 
-                        <li class="nav-item dropdown me-5">
+                        <li class="nav-item dropdown me-lg-5">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false"><span>Products</span></a>
                             <div class="cont">
@@ -103,15 +106,18 @@
                         </li>
                     </ul>
 
-                    <div class="nav justify-content-end gap-3 ms-5">
+                    <div class="nav justify-content-end gap-lg-3 sidecart ms-lg-5">
                         <li class="nav-item tes">
-                            <a class="nav-link" href="#"><img src="images/icon-search.svg" width="20px" alt=""></a>
+                            <a class="nav-link" href="#"><img src="images/icon-search.svg" class="sideitem" width="20px"
+                                    alt=""></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/icon-cart.svg" width="22px" alt=""></a>
+                            <a class="nav-link" href="#"><img src="images/icon-cart.svg" class="sideitem" width="22px"
+                                    alt=""></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="images/icon-user.svg" width="17px" alt=""></a>
+                            <a class="nav-link" href="#"><img src="images/icon-user.svg" class="sideitem" width="17px"
+                                    alt=""></a>
                         </li>
                     </div>
                 </div>
@@ -196,57 +202,79 @@
 
     <!-- 1st body -->
     <div class="first-body">
-        <div class="first-parent row gap-5 ms-5 mt-5">
-            <div class="col d-flex ms-5 gap-3"><img src="images/548ba05e3ebd50c37607b010723b4658.png" width="40px"
-                    height="38px" alt="">
+        <div class="first-parent row gap-lg-5 ms-lg-5 mt-5 d-lg-flex d-none">
+            <div class="col d-flex ms-lg-5 gap-lg-3"><img src="images/548ba05e3ebd50c37607b010723b4658.png" width="40px" height="38px" alt="">
                 <p class="pt-2"> Free Shipping over ₦9000 in Lagos</p>
             </div>
-            <div class="col d-flex gap-3"><img src="images/21b2d03f844d825fc5dd8c827831745f.png" width="40px"
-                    height="38px" alt="">
+            <div class="col d-flex gap-lg-3"><img src="images/21b2d03f844d825fc5dd8c827831745f.png" width="40px" height="38px" alt="">
                 <p class="mt-2"> Cash on Delivery</p>
             </div>
-            <div class="col d-flex gap-3"><img src="images/674d32382b4148f5b16922b0134a9ee1.png" width="40px"
-                    height="38px" alt="">
+            <div class="col d-flex gap-lg-3"><img src="images/674d32382b4148f5b16922b0134a9ee1.png" width="40px" height="38px" alt="">
                 <p class="mt-2"> Hassle-Free Warranty</p>
             </div>
         </div>
 
-        <div class="first-bodyy p-5">
-            <div class="first-parentt">
-                <a href="#">
-                    <div class="f-boxx mb-4">
-                        <p>Audio</p>
+        <div id="carouselExampleAutoplaying" class="carousel slide d-lg-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="col d-flex ms-5 gap-3"><img src="images/548ba05e3ebd50c37607b010723b4658.png" width="40px" height="38px" alt="">
+                        <p class="pt-2"> Free Shipping over ₦9000 in Lagos</p>
                     </div>
-                </a>
+                </div>
 
-                <a href="#">
-                    <div class="f-boxxx mb-4">
-                        <p>Personal Care</p>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="col d-flex ms-5 ps-5 gap-3"><img src="images/21b2d03f844d825fc5dd8c827831745f.png" width="40px" height="38px" alt="">
+                        <p class="mt-2"> Cash on Delivery</p>
                     </div>
-                </a>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="col d-flex ms-5 ps-5 gap-3"><img src="images/674d32382b4148f5b16922b0134a9ee1.png" width="40px" height="38px" alt="">
+                        <p class="mt-2"> Hassle-Free Warranty</p>
+                    </div>
+                </div>
+                
             </div>
-
-            <div class="first-parentt">
-                <a href="#">
-                    <div class="f-boxs">
-                        <p>Power</p>
-                    </div>
-                </a>
-
-                <a href="#">
-                    <div class="f-boxss">
-                        <p>Smart & Office</p>
-                    </div>
-                </a>
-            </div>
+            
         </div>
+    </div>
+
+    <div class="first-bodyy p-lg-5 p-2">
+        <div class="first-parentt">
+            <a href="#">
+                <div class="f-boxx mb-4">
+                    <p>Audio</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="f-boxxx mb-4">
+                    <p>Personal Care</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="first-parentt">
+            <a href="#">
+                <div class="f-boxs">
+                    <p>Power</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="f-boxss">
+                    <p>Smart & Office</p>
+                </div>
+            </a>
+        </div>
+    </div>
     </div>
 
     <!-- 2nd body -->
     <div class="second-body">
         <h3>Product Display</h3>
 
-        <div id="carouselExampleAutoplaying" class="carousel slide carousel-dark p-3" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-dark p-3 d-lg-block d-none" data-bs-ride="carousel">
 
 
             <div class="carousel-inner imgg">
@@ -279,7 +307,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(289)</span>
-                                    <h6>₦68400</h6>
+                                    <div class="insid">
+                                        <h6>₦68400</h6>
+                                        <p>₦75000</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -315,7 +346,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(52)</span>
-                                    <h6>₦36000</h6>
+                                    <div class="insid">
+                                        <h6>₦36000</h6>
+                                        <p>₦45000</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -351,7 +385,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(694)</span>
-                                    <h6>₦19800</h6>
+                                    <div class="insid">
+                                        <h6>₦19800</h6>
+                                        <p>₦33300</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -387,7 +424,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(339)</span>
-                                    <h6>₦24400</h6>
+                                    <div class="insid">
+                                        <h6>₦24400</h6>
+                                        <p>₦33300</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -429,7 +469,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(510)</span>
-                                    <h6>₦30800</h6>
+                                    <div class="insid">
+                                        <h6>₦30800</h6>
+                                        <p>₦43300</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -465,7 +508,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(355)</span>
-                                    <h6>₦78700</h6>
+                                    <div class="insid">
+                                        <h6>₦78700</h6>
+                                        <p>₦82300</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -501,7 +547,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(482)</span>
-                                    <h6>₦18400</h6>
+                                    <div class="insid">
+                                        <h6>₦18400</h6>
+                                        <p>₦22300</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -538,7 +587,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(519)</span>
-                                    <h6>₦34000</h6>
+                                    <div class="insid">
+                                        <h6>₦34000</h6>
+                                        <p>₦42500</p>
+                                    </div>
                         </div>
                         </li>
                         </ul>
@@ -581,7 +633,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(106)</span>
-                                    <h6>₦48200</h6>
+                                    <div class="insid">
+                                        <h6>₦48200</h6>
+                                        <p>₦52500</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -617,7 +672,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(48)</span>
-                                    <h6>₦20500</h6>
+                                    <div class="insid">
+                                        <h6>₦20500</h6>
+                                        <p>₦25000</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -654,6 +712,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(258)</span>
                                     <h6>₦31600</h6>
+                                    <div class="insid">
+                                        <h6>₦31600</h6>
+                                        <p>₦35000</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -689,7 +751,10 @@
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span><img src="images/svgexport-1.svg" alt=""></span>
                                     <span>(258)</span>
-                                    <h6>₦31600</h6>
+                                    <div class="insid">
+                                        <h6>₦31600</h6>
+                                        <p>₦35000</p>
+                                    </div>
                                 </li>
                             </ul>
                             <!-- <div class="card-body">
@@ -703,29 +768,537 @@
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon pill" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
 
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon pill" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-dark p-3 d-lg-none d-block" data-bs-ride="carousel">
+
+
+            <div class="carousel-inner imgg">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 15rem;">
+                            <div class="image-wrapper">
+                                <img src="images/opb-p500qn.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">PowerBox 500 50000mAh ...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-2">
+                                        <img src="images/big-digital-display.svg" width="20px" alt="">
+                                        <p class="mt-2">Big Digital Display</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-2">
+                                        <img src="images/four-output-ports.svg" width="20px" alt="">
+                                        <p class="mt-2">Four Output Ports</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(289)</span>
+                                    <div class="insid">
+                                        <h6>₦68400</h6>
+                                        <p>₦75000</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+    
+                        <div class="card border-0" style="width: 15rem;">
+                            <div class="image-wrapper">
+                                <img src="images/OHP-610S-A1-680-removebg-preview.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">BoomPop2s ENC Over-Ear...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/gesture_5f-drag-left-right.svg" width="20px" alt="">
+                                        <p class="mt-2">Gesture Control</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">ENC HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(52)</span>
+                                    <div class="insid">
+                                        <h6>₦36000</h6>
+                                        <p>₦45000</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/opb-p208dn-black.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pilot Byte 20000mAh 12W...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/widely-compatible.svg" width="20px" alt="">
+                                        <p class="mt-2">Widely Compatible</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/2.4a-max-fast-charging.svg" width="20px" alt="">
+                                        <p class="mt-2">2.4A Max Fast Charging</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(694)</span>
+                                    <div class="insid">
+                                        <h6>₦19800</h6>
+                                        <p>₦33300</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+    
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/oeb-e04d.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Riff 2 Half-in Ear True Wire...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">4-mic ENC HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">30Hr Playtime (Lights On)</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(339)</span>
+                                    <div class="insid">
+                                        <h6>₦24400</h6>
+                                        <p>₦33300</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/OPC-CL30.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Clipper 2 Professio...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/extra-long-lasting-battery.svg" width="20px" alt="">
+                                        <p class="mt-2">2.5 hrs Runtime</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/designed-for-all-types-of-hair.svg" width="20px" alt="">
+                                        <p class="mt-2">Precise Blades for All Hair Types</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(510)</span>
+                                    <div class="insid">
+                                        <h6>₦30800</h6>
+                                        <p>₦43300</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+    
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/obs-75d.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Boom 30W Wireless Speaker</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">6-Hr Playtime (Lights On)</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/dynamic-party-light-effects.svg" width="20px" alt="">
+                                        <p class="mt-2">Dynamic Party Light Effects</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(355)</span>
+                                    <div class="insid">
+                                        <h6>₦78700</h6>
+                                        <p>₦82300</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/otw-330-black.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Freepods Lite Enc True W...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">40 Hr Long Playtime</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(482)</span>
+                                    <div class="insid">
+                                        <h6>₦18400</h6>
+                                        <p>₦22300</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+    
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/oeb-e06dn.png" width="260px" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ryhme ANC True Wireless...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">4-mic ENC HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/pro-hybrid-noise-cancellation-technology.svg" width="20px"
+                                            alt="">
+                                        <p class="mt-2">30dB ANC Noise Cancellation</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(519)</span>
+                                    <div class="insid">
+                                        <h6>₦34000</h6>
+                                        <p>₦42500</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/OSW-810.png" width="260px" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Watch ES 2 1.95" AMOLE...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">Bluetooth Call</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/pro-hybrid-noise-cancellation-technology.svg" width="20px"
+                                            alt="">
+                                        <p class="mt-2">1.95" AMOLED Display</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(106)</span>
+                                    <div class="insid">
+                                        <h6>₦48200</h6>
+                                        <p>₦52500</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+    
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/OTW-340-680-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">AirBuds 4 ENC True Wirel...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/36-hr-long-playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">38-Hr Long Playtime</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/customize-your-listening.svg" width="20px" alt="">
+                                        <p class="mt-2">oraimo Sound APP</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(48)</span>
+                                    <div class="insid">
+                                        <h6>₦20500</h6>
+                                        <p>₦25000</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="cards-wrapper">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/oeb-e104dc-black.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">FreePods 3C ENC True Wi...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/36-hr-long-playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">38-Hr Long Playtime</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">4-mic ENC HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(258)</span>
+                                    <h6>₦31600</h6>
+                                    <div class="insid">
+                                        <h6>₦31600</h6>
+                                        <p>₦35000</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+        
+                        <div class="card border-0" style="width: 18rem;">
+                            <div class="image-wrapper">
+                                <img src="images/oeb-e104dc-black.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">FreePods 3C ENC True Wi...</h5>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-top border-top-2">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/36-hr-long-playtime.svg" width="20px" alt="">
+                                        <p class="mt-2">38-Hr Long Playtime</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="see d-flex gap-1">
+                                        <img src="images/4-mic-enc-hd-voice-in-calls.svg" width="20px" alt="">
+                                        <p class="mt-2">4-mic ENC HD Voice in Calls</p>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span><img src="images/svgexport-1.svg" alt=""></span>
+                                    <span>(258)</span>
+                                    <div class="insid">
+                                        <h6>₦31600</h6>
+                                        <p>₦35000</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- <div class="card-body">
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </div>
 
+    
     <!-- 3rd body -->
-    <div class="third-body mt-5 mb-5">
-        <img src="images/new-arrival-l.jpg" style="height: 370px; width: 100%;" alt="">
+    <div class="third-body awards d-lg-block d-none mt-5 mb-5">
+        <img src="images/new-arrival-l.jpg" alt="">
+    </div>
+
+    <div class="third-body awards d-lg-none d-block mt-5 mb-5">
+        <img src="images/awards oraimo.jpg" alt="">
     </div>
 
     <!-- 4th body -->
     <div class="fourth-body">
         <h4>New Arrival</h4>
 
-        <div class="fourth-group row ms-5 p-3 imgg">
-            <div class="card border-0" style="width: 18rem;">
+        <div class="fourth-group ms-lg-3 p-lg-3 p-2 imgg">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OTW-340-680-1.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -748,23 +1321,26 @@
                             <p class="mt-2">oriamo Sound APP</p>
                         </div>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item hidde">
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(48)</span>
-                        <h6>₦20500</h6>
+                        <div class="insid">
+                            <h6>₦20500</h6>
+                            <p>₦30000</p>
+                        </div>
                     </li>
                 </ul>
-                <!-- <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                <!-- <div class="card-body addcart">
+                    <a href="#" class="card-link learn">Learn More</a>
+                    <a href="#" class="card-link addto">Add to Cart</a>
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OPB-1270-680-680.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -794,7 +1370,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(56)</span>
-                        <h6>₦28600</h6>
+                        <div class="insid">
+                            <h6>₦28600</h6>
+                            <p>₦33000</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -803,7 +1382,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OHP-610S-A1-680-removebg-preview.png" class="card-img-top"
                             style="width: 220px;" alt="..."></a>
@@ -833,7 +1412,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(52)</span>
-                        <h6>₦36000</h6>
+                        <div class="insid">
+                            <h6>₦35900</h6>
+                            <p>₦38500</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -842,7 +1424,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/opb-p5271-black.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -872,7 +1454,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(234)</span>
-                        <h6>₦33800</h6>
+                        <div class="insid">
+                            <h6>₦33800</h6>
+                            <p>₦36600</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -881,7 +1466,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OPB-P400Q(680)-10.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -911,7 +1496,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(633)</span>
-                        <h6>₦48200</h6>
+                        <div class="insid">
+                            <h6>₦48200</h6>
+                            <p>₦49500</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -920,7 +1508,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/opb-p5101-black.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -950,7 +1538,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(341)</span>
-                        <h6>₦19300</h6>
+                        <div class="insid">
+                            <h6>₦19300</h6>
+                            <p>₦21200</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -960,7 +1551,7 @@
             </div>
 
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OSW-810.png" width="260px" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -990,7 +1581,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(106)</span>
-                        <h6>₦48200</h6>
+                        <div class="insid">
+                            <h6>₦45500</h6>
+                            <p>₦55000</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -999,7 +1593,7 @@
                         </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/801.png" class="card-img-top" style="width: 220px;" alt="..."></a>
                 </div>
@@ -1028,7 +1622,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(94)</span>
-                        <h6>₦39000</h6>
+                        <div class="insid">
+                            <h6>₦39000</h6>
+                            <p>₦41900</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -1037,7 +1634,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/OCL-550-08.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -1067,7 +1664,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(261)</span>
-                        <h6>₦49700</h6>
+                        <div class="insid">
+                            <h6>₦49700</h6>
+                            <p>₦53500</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -1076,7 +1676,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/opb-p5101-black.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -1106,7 +1706,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(226)</span>
-                        <h6>₦22400</h6>
+                        <div class="insid">
+                            <h6>₦22400</h6>
+                            <p>₦23900</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -1115,7 +1718,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/oeb-e30d-black.png" class="card-img-top" style="width: 220px;"
                             alt="..."></a>
@@ -1145,7 +1748,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(10)</span>
-                        <h6>₦18400</h6>
+                        <div class="insid">
+                            <h6>₦18400</h6>
+                            <p>₦20500</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -1154,7 +1760,7 @@
                 </div> -->
             </div>
 
-            <div class="card border-0" style="width: 18rem;">
+            <div class="card border-0 cardgrid" style="">
                 <div class="image-wrapper imgss">
                     <a href="#"><img src="images/osw-30.png" class="card-img-top" style="width: 220px;" alt="..."></a>
                 </div>
@@ -1183,7 +1789,10 @@
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span><img src="images/svgexport-1.svg" alt=""></span>
                         <span>(13)</span>
-                        <h6>₦49300</h6>
+                        <div class="insid">
+                            <h6>₦49300</h6>
+                            <p>₦52000</p>
+                        </div>
                     </li>
                 </ul>
                 <!-- <div class="card-body">
@@ -1197,12 +1806,16 @@
     </div>
 
     <!-- 5th body -->
-    <div class="fifth-body mt-4">
+    <div class="fifth-body d-lg-block d-none mt-4">
         <img src="images/banner-wide-l.jpg" alt="">
     </div>
 
+    <div class="fifth-body d-lg-none d-block mt-4">
+        <img src="images/50countries.jpg" alt="">
+    </div>
+
     <!-- 6th body -->
-    <div class="sixth">
+    <div class="sixth d-lg-grid d-none">
         <h5>WHY BUY FROM oraimo</h5>
 
         <div class="sixth-body p-5">
@@ -1242,8 +1855,45 @@
         </div>
     </div>
 
+    <div class="sixth d-lg-none d-grid">
+        <h5>WHY BUY FROM oraimo</h5>
+
+        <div class="sixth-body">
+            <div class="sixth-parent">
+                <div class="woman mb-3">
+                    <p>ACCESSIBLE CUSTOMER SERVICE</p>
+                </div>
+                <div class="club mb-3">
+                    <p id="eshop">ESHOP EXCLUSIVE COMMUNITY EVENTS, SCAN TO JOIN O-CLUB NG NOW!</p>
+                </div>
+                <div class="calcare">
+                    <p>NATIONWIDE OFFLINE AFTER-SALES <br>OUTLETS</p>
+                </div>
+            </div>
+
+            <div class="sixth-parent">
+                <div class="year mb-3">
+                    <p>1 YEAR WARRANTY,<br>ONLY REPLACE NO REPAIR</p>
+                </div>
+                <div class="free mb-3">
+                    <p>FREE SHIPPING OVER ₦9000 in Lagos
+                        <br>DOOR TO DOOR DELIVERY
+                    </p>
+                </div>
+                <div class="authen mb-3">
+                    <p>ORAIMO AUTHENTICITY
+                        <br>& BEST PRICE GUARANTEED
+                    </p>
+                </div>
+                <div class="coin">
+                    <p>BUY TO GET ORAIMO EXPLORER <br>POINTS, EXTRA POINTS FOR MEMBERS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- 7th body -->
-    <div class="seventh-body ps-5 pe-5 pt-4">
+    <div class="seventh-body ps-lg-5 pe-lg-5 p-3 pt-4">
         <h1><span><img src="images/icons8-instagram-48.png" alt=""></span>@oraimoclub</h1>
         <button class="btn bg-black text-white rounded-pill fw-bold mb-3">Follow Us</button>
         <p>Are you an <b>explorer</b> at heart, always seeking new experiences? Join us at <b>oraimo</b> as we embark on
@@ -1260,29 +1910,32 @@
                     aria-label="Slide 2"></button>
             </div>
 
-            <div class="carousel-inner ">
+            <div class="carousel-inner clip">
                 <div class="carousel-item active">
-                    <img src="images/post-1.jpg" class="" width="252px" alt="...">
-                    <img src="images/post-2.jpg" class="ms-5" width="252px" alt="...">
-                    <img src="images/post-3.jpg" class="ms-5" width="252px" alt="...">
-                    <img src="images/post-4.jpg" class="ms-5" width="252px" alt="...">
+                    <img src="images/post-1.jpg" class="" width="" alt="...">
+                    <img src="images/post-2.jpg" class="" width="" alt="...">
+                    <img src="images/post-3.jpg" class="" width="" alt="...">
+                    <img src="images/post-4.jpg" class="" width="" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/post-5.jpg" class="" width="252px" alt="...">
-                    <img src="images/post-6.jpg" class="ms-5" width="252px" alt="...">
-                    <img src="images/post-7.jpg" class="ms-5" width="252px" alt="...">
-                    <img src="images/post-8.jpg" class="ms-5" width="252px" alt="...">
+                    <img src="images/post-5.jpg" class="" width="" alt="...">
+                    <img src="images/post-6.jpg" class="" width="" alt="...">
+                    <img src="images/post-7.jpg" class="" width="" alt="...">
+                    <img src="images/post-8.jpg" class="" width="" alt="...">
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <!-- 8th body -->
     <div class="eight-body mt-5">
         <h3 class="mb-4">NEWSLETTER</h3>
-        <div class="input-group mx-auto mb-3 w-75">
-            <input type="text" class="form-control rounded-start-pill shadow-none" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary bg-black rounded-end-pill p-2 bell" type="button" id="button-addon2"><img src="images/icons8-notification-24.png" width="30px" alt=""></button>
+        <div class="input-group mx-auto mb-3 w-75 w-sm-100">
+            <input type="text" class="form-control rounded-start-pill shadow-none"
+                placeholder="Enter your email address" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary bg-black rounded-end-pill p-2 bell" type="button"
+                id="button-addon2"><img src="images/icons8-notification-24.png" width="" alt=""></button>
         </div>
 
         <p class="mt-4">Get the Latest oraimo News and Giveaways</p>
@@ -1290,13 +1943,13 @@
 
     <!-- 9th body -->
     <div class="nineth-body p-3">
-        <p>FOLLOW US</p>
+        <p class="d-lg-block d-none">FOLLOW US</p>
         <div class="ninth-parent">
             <a href="#"><img src="images/IG.png" width="36px" alt=""></a>
-            <a href="#"><img src="images/icons8-facebook-50.png" width="37px" class="ms-5" alt=""></a>
-            <a href="#"><img src="images/icons8-youtube-64.png" width="45px" class="ms-5" alt=""></a>
-            <a href="#"><img src="images/icons8-twitter-30.png" width="37px" class="ms-5" alt=""></a>
-            <a href="#"><img src="images/icons8-tik-tok-50.png" width="37px" class="ms-5" alt=""></a>
+            <a href="#"><img src="images/icons8-facebook-50.png" width="37px" class="ms-lg-5 ms-3" alt=""></a>
+            <a href="#"><img src="images/icons8-youtube-64.png" width="45px" class="ms-lg-5 ms-3" alt=""></a>
+            <a href="#"><img src="images/icons8-twitter-30.png" width="37px" class="ms-lg-5 ms-3" alt=""></a>
+            <a href="#"><img src="images/icons8-tik-tok-50.png" width="37px" class="ms-lg-5 ms-3" alt=""></a>
         </div>
     </div>
 
@@ -1308,7 +1961,8 @@
             <h6>Monday-Friday 9AM to 8PM</h6>
             <p><a href="#">Phone:</a></p>
             <h6>+234 818 135 3103 (First Choice)
-                <br>+234 809 604 0753</h6>
+                <br>+234 809 604 0753
+            </h6>
             <p><a href="#">Email:</a></p>
             <h6>care.ng@oraimo.com</h6>
             <p><a href="#">Whatsapp:</a></p>
