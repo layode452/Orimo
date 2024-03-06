@@ -1,6 +1,6 @@
 @media screen and (max-width: 475px){
     *{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     /* top section */
     .viju h1{
@@ -45,7 +45,12 @@
 
     .watch{
         width: 100%;
-        height: 93px;
+        height: 230px;
+    }
+
+    .imadj{
+        zoom: 110%;
+        height: 400px;
     }
 
     /* free shipping */
@@ -203,7 +208,29 @@
 }
 
 /* 10th body */
-.tenth-body{
+/* .tenth-body{
     display: block;
+} */
+
+.dropfor{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tenth-body span{
+    color: white;
+}
+
+.arrow{
+    position: fixed;
+    top: 620px;
+    left: 335px;
+}
+
+.arrow img{
+    background-color: black;
+    padding: 15px;
+    border-radius: 100%;
 }
 }
