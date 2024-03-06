@@ -1,6 +1,6 @@
 @media screen and (max-width: 475px){
     *{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     /* top section */
     .viju h1{
