@@ -88,6 +88,17 @@
     font-size: 16px;
 }
 
+/* 2nd body */
+.imgg h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.image-wrapper{
+    height: 35vw;
+    margin: 0 auto;
+}
+
 /* 3rd body */
 .awards img{
     height: 500px;
