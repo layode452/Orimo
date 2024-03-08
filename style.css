@@ -29,6 +29,10 @@
     background-color: #1D1D1D;
 }
 
+.nbac span:hover{
+    color: rgb(0, 178, 0);
+}
+
 .nbacc span{
     font-size: 16px;
     font-weight: 700;
